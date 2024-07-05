@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet"  href="style.css">
+        <script src="https://kit.fontawesome.com/72a26df2f7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav style="text-align: right;"><br>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about ">About</a></li>
+                        <!-- <li><a href="#services">Services</a></li> -->
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </nav>
+                <!-- <img src="Hi.jpg"> -->
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Sakshi Lingwal</span><br>from Dehradun</h1>
+                    <p>persuing B.Tech in Computer Science & Eng.</p>
+                </div>
+            </div>
+        </div><!--This is the end of the header section of the web page-->
+<!--Starting of the about section-->        
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Hi.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <!-- <p>Hey, there!!! 😎.  -->
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('experience')">Achievements</p>
+                        </div>
+                        <!--Skills tag-->
+                        <div class="tab-contents active-tab" id ="skills">
+                            <ul>
+                                <li><span>Languages</span><br> C/C++, Python, Java, SQL, Linux</li>
+                                <li><span>Frontend</span><br> Html, CSS, Js, Php</li>
+                                <li><span>Backend</span><br> Python, Php, Js, SQL</li>
+                                <li><span>Data Analysis</span><br> Python, Pandas, Numpy</li>
+                                <li><span>Developer Tools</span><br> Jupyter Notebook, VS Code, Oracle, Xampp, Ubntu, Wireshark, Github</li>
+                            </ul>
+                        </div>
+                        <!--Education tag-->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Education</span><br>
+                                ->Completed my 12th from CBSE board with 96.6% <br><br>
+                                ->Completed my 10th from CBSE board with 93.2% <br>   
+                            
+                            </li>
+                                <li><span>Current Education</span><br>
+                                ->Presently in B.Tech final year.<br>                           
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Competitive Programming</span><br>
+                                -> Solved more than 400 questions on online coding platforms.
+                                 <br>
+                            </li>
+                                <li><span>Open Source Contribution</span><br>
+                                -> I have contributed on some open source project.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+<!---------------services tab down here---------------->
+<div id="services">
+ <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>I can work on website and database designing. I have already worked on few projects, if you want to work with
+                me you can reach me through below contact.
+            </p>
+            <a href="#contact">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Machine Learning</h2>
+            <p>I have worked on some ml-based projets.I can work on ML,Data Analysis, Data Cleaning and many other 
+                task. For more details reach me. 
+            </p>
+            <a href="#contact">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-ghost"></i>
+            <h2>Cyber Security</h2>
+            <p>I have vast knowledge of cybersecurity fundamentals and have also created security projects using python.
+            </p>
+            <a href="#contact">Learn more</a>
+        </div>
+    </div>
+ </div>    
+</div>
+<!-- -------------------portfolio---------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <div class="sub-title">Projects</div>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-content">
+                    <h3>1.Machine Learning Based Malware Attack Detection And Mitigation System</h3>
+                    <p> 
+                        This project accurately identifies safe or potentially harmful files. This proactive approach safeguards our infrastructure
+                        and ensures real-time protection against cyber threats.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>2.Student Grades Prediction</h3>
+                    <p>
+                        This project utilizes supervised ML to forecast student's final grades in a specific subject. It relies on historical
+                        performance data for predicting grades.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>3.Keylogger</h3>
+                    <p>
+                        The Keylogger project in Python is an application designed to monitor and record keyboard input on a computer
+                        system.All the inputted keystrokes are stored in a .txt file.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>4.Advance Employee Management System</h3>
+                    <p>
+                        It's an application that is used to manage the data of the employees such as leave management personal details ,
+                        education details , work experience etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-----------------------contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:rakesh.2007.ext@gmail.com"><i class="fa-regular fa-envelope"></i></a>sakshilingwal57@gmail.com</p>
+                <p><i class="fa-solid fa-phone-flip"></i>9087765645</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sakshi-lingwal-b13955232/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sakshi_lingwal47/"><i class="fa-brands fa-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                    <a href="https://github.com/SakshiLingwal" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Resume2024.pdf" download class="btn btn2">My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="E-mail" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sakshi.<i class="fa-regular fa-face-smile"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWLALJTwTBWN2Qs5U313xg_TT_yDK5NCAGlXR_h_aHBKwzPg68cpYb_fg2A-net0hBhQ/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById('msg');
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            msg.innerHTML = 'Message Sent successfully'
+            setTimeout(function() {
+                msg.innerHTML = ''},5000)
+                form.reset()// Reset the form after displaying the success message
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+</script>
+
+    </body>
+</html>
